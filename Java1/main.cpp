@@ -20,5 +20,5 @@ int main(){
     cout<<"Perimetri eshte:"<<rezultati;
 
 
-    return 0; 
+    return 0;
 }
