@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main(){
@@ -8,6 +9,7 @@ int main(){
     float cmimi_baze = 8.00f;
     float cmimi = cmimi_baze;
     float cdite=cmimi;
+    string sym = "€";
 
     cout<<"Sa vjet: ";
     cout<<endl<<"Dita e  javes (1-7): "<<endl;
@@ -45,9 +47,14 @@ int main(){
         cdite=cmimi;
         break;
     }
+     
+    double zbm=cmimi_baze-cmimi;
+    double zbd=cmimi-cdite;
 
-
-    cout<<"Zbritja e Moshes: "<<cmimi<<endl;
-    cout<<"Zbritje dite: "<<cdite<<endl;
+    cout<<"Cmimi Baze: "<<cmimi_baze<<sym<<endl;
+    cout<<"Zbritja e Moshes: "<<zbm<<sym<<endl;
+    cout<<"Zbritje dite: "<<zbd<<sym<<endl;
+    cout << "Per te paguar: " << cdite<<sym << endl;
+    
     return 0;
 }
