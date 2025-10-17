@@ -11,7 +11,7 @@ int main(){
     float cdite=cmimi;
     string sym = "€";
 
-    cout<<"Sa vjet: ";
+    cout<<"Jepni moshen e juaj: ";
     cout<<endl<<"Dita e  javes (1-7): "<<endl;
     cin>>age>>dita;
 
