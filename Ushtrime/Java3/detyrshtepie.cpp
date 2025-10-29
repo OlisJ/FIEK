@@ -4,13 +4,10 @@
 using namespace std;
 
 int main(){
+    const int n=7;
+    float varg[n]={3.5,8,10,4,6.7,3,2};
 
-    int a,b,c;
-    cout<<"Jepi 3 vlera:"<<endl;
-    cin>>a>>b>>c;
-    list<int> maksimumi = {a, b, c};
-
-    cout << "Maksimumi eshte: " << *max_element(maksimumi.begin(), maksimumi.end()) << endl;
+    cout << "Maksimumi eshte: " << *max_element(varg, varg + n) << endl;
 
 
     return 0;
