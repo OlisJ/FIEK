@@ -13,9 +13,9 @@ int main() {
     cout<<a<<endl; 
     cout<<b<<endl;
     
-    while (b <= n){
+    while(b <= n){
         c=a+b;
-        if (c > n) break;
+        if(c > n) break;
         cout<<c<< endl;
         a = b;
         b = c;
