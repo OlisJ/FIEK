@@ -3,6 +3,13 @@ using namespace std;
 int maksimalja(int vargu[],int n ,int numri);
 
 int main(){
+    const int m=7;
+    int vargu[m]={3,4,2,1,9,-6,0};
+    int numri;
+    cout<<"Jepe nje numer";
+    cin>>numri;
+    cout<<"vlera maksimale eshte"<<maksimalja(vargu,m,numri)<<endl;
+
 
     return 0;
 }
